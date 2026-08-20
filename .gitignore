@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Environment
+.env
+
+# Evidence file storage (Phase 3 local disk backend — runtime data, not source)
+services/api/storage/
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Flutter
+apps/mobile/**/.dart_tool/
+apps/mobile/**/build/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
